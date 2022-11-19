@@ -1,14 +1,16 @@
-.examples-list {
-  display: flex;
-  gap: 30px;
-}
+.examples {
+  &-list {
+    display: flex;
+    gap: 30px;
+  }
 
-.examples-item {
-  flex-basis: calc((100% - 60px) / 3);
-}
+  &-item {
+    flex-basis: calc((100% - 60px) / 3);
 
-.examples-item-wrap {
-  position: relative;
+    &-wrap {
+      position: relative;
+    }
+  }
 }
 
 .text-top {

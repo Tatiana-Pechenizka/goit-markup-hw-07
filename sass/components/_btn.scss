@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-color: transparent;
+  border-radius: 4px;
+  border: none;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  transition: var(--transition-hover-bg);
+
+  &:hover,
+  &:focus {
+    background: var(--secondary-blue-color);
+  }
+}
