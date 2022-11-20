@@ -54,24 +54,7 @@
 .footer-soc {
   margin-left: 70px;
 
-  &-list {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  &-item {
-    width: 44px;
-    height: 44px;
-  }
-
   &-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
     color: var(--primary-white-color);
     background-color: rgba(255, 255, 255, 0.1);
     transition: var(--transition-hover-bg);
