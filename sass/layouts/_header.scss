@@ -1,22 +1,21 @@
 .header {
   border-bottom: 1px solid #ececec;
-
-  &-container {
-    display: flex;
-    align-items: center;
-  }
-  &-nav {
+  &__container {
     display: flex;
     align-items: center;
   }
 }
 
-.site-nav {
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__menu {
   display: flex;
   gap: 50px;
   margin-left: 93px;
-
-  & .link {
+  .link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -24,17 +23,15 @@
     display: block;
     padding: 32px 0px;
     transition: var(--transition-hover-color);
-
     &:hover,
     &:focus,
     &:active {
       color: var(--accent-color);
     }
-  }
-
-  & .link.current {
-    color: var(--accent-color);
-    position: relative;
+    &.current {
+      color: var(--accent-color);
+      position: relative;
+    }
   }
 }
 
@@ -49,13 +46,12 @@
   border-radius: 2px;
 }
 
-.site-contacts {
+.header__contacts {
   display: flex;
   gap: 50px;
   margin-left: auto;
   align-items: center;
-
-  & .link {
+  .link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -63,7 +59,6 @@
     display: flex;
     align-items: center;
     transition: var(--transition-hover-color);
-
     &:hover,
     &:focus {
       color: var(--accent-color);
@@ -71,7 +66,7 @@
   }
 }
 
-.contacts-icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
