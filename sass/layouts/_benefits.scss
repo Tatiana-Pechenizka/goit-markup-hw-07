@@ -1,20 +1,20 @@
 .benefits {
   padding-top: 94px;
 
-  &-container {
+  &__container {
     display: flex;
   }
 
-  &-list {
+  &__list {
     display: flex;
     gap: 30px;
   }
 
-  &-item {
+  &__item {
     flex-basis: calc((100% - 90px) / 4);
   }
 
-  &-title {
+  &__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -23,12 +23,12 @@
     margin-bottom: 10px;
   }
 
-  &-el {
+  &__text {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
   }
-  &-box {
+  &__box {
     display: flex;
     justify-content: center;
     align-items: center;
