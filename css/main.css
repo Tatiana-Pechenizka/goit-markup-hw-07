@@ -554,11 +554,13 @@ body {
   justify-content: center;
   gap: 30px;
 }
-.client-item {
+
+.client-list__item {
   width: calc((100% - 150px) / 6);
   height: 90px;
 }
-.client-link {
+
+.client-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -569,15 +571,20 @@ body {
   color: var(--icon-color);
   transition: var(--transition-hover-border);
 }
-.client-link:hover, .client-link:focus {
+
+.client-list__link:hover,
+.client-list__link:focus {
   border-color: var(--accent-color);
   outline: none;
 }
-.client-icon {
+
+.client-list__icon {
   fill: currentColor;
   transition: var(--transition-hover-fill);
 }
-.client-link:hover .client-icon, .client-link:focus .client-icon {
+
+.client-list__link:hover .client-list__icon,
+.client-list__link:focus .client-list__icon {
   fill: var(--accent-color);
 }
 
