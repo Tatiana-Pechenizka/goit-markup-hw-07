@@ -8,11 +8,8 @@
 
 .portfolio-btn {
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include font(500, 16px, 1.62, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: var(--primary-btn-color);
   border-color: transparent;
   border-radius: 4px;

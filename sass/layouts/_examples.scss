@@ -9,9 +9,7 @@
     position: relative;
   }
   &__text {
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, null, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--primary-white-color);
     display: flex;
