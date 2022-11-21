@@ -503,46 +503,49 @@ body {
 .team {
   background-color: var(--rare-bg-color);
 }
+
 .team-list {
   display: flex;
   gap: 30px;
 }
-.team-item {
+.team-list__item {
   flex-basis: calc((100% - 90px) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
 }
+
 .team-wrap {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team-title, .team-el {
+.team-wrap__title, .team-wrap__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-title {
+.team-wrap__title {
   margin-bottom: 10px;
   font-weight: 500;
 }
-.team-el {
+.team-wrap__text {
   color: var(--secondary-text-color);
   margin-bottom: 16px;
 }
 
-.team-soc-link {
+.team-soc__link {
   color: var(--icon-color);
   transition: var(--transition-hover-color), var(--transition-hover-bg);
 }
-.team-soc-link:hover, .team-soc-link:focus {
+.team-soc__link:hover, .team-soc__link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   outline: none;
 }
-.team-soc-icon {
+
+.team-soc__icon {
   fill: currentColor;
 }
 
